@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #800080; /* Purple */
     color: white;
     text-align: center;
     padding: 20px;
@@ -38,15 +38,41 @@ section.bio {
 }
 
 h2 {
-    color: #4CAF50;
+    color: #800080; /* Purple */
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 150px;
+    border: 3px solid #800080; /* Purple border around the image */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #800000; /* Maroon */
     color: white;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
+
+footer p {
+    margin: 0;
+}
+
+button {
+    background-color: #800000; /* Maroon */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #660000; /* Darker Maroon */
+}
+
