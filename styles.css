@@ -40,6 +40,11 @@ section.bio {
 h2 {
     color: #800080; /* Purple */
 }
+    .profile-image {
+    text-align: center; /* Center the content inside the div */
+    margin: 20px auto; /* Center the div itself horizontally */
+    width: fit-content; /* Adjust width based on image size */
+}
 
 .profile-image img {
     max-width: 100%;
@@ -51,7 +56,7 @@ h2 {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background-color: #800000; /* Maroon */
     color: white;
     position: fixed;
@@ -67,7 +72,7 @@ button {
     background-color: #800000; /* Maroon */
     color: white;
     border: none;
-    padding: 15px 25px;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
