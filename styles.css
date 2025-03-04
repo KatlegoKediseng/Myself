@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #800080; /* Purple */
+    background-color: #800080; /* Purple for header */
     color: white;
     text-align: center;
     padding: 20px;
@@ -38,7 +38,36 @@ section.bio {
 }
 
 h2 {
-    color: #800080; /* Purple */
+    color: #800080; /* Purple for headings */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #800000; /* Maroon footer */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #800080; /* Purple links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #333; /* Darker color when hovered */
 }
 
 .profile-image img {
@@ -49,30 +78,43 @@ h2 {
     border: 3px solid #800080; /* Purple border around the image */
 }
 
-footer {
+/* For Hobbies and Social Life Section */
+section.bio img {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+section.bio p {
+    font-size: 18px;
+    color: #333;
+}
+
+section.bio ul {
+    margin-top: 20px;
+}
+
+section.bio ul p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
     text-align: center;
-    padding: 10px;
-    background-color: #800000; /* Maroon */
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
     color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-footer p {
-    margin: 0;
+footer ul li a:hover {
+    color: #333;
 }
-
-button {
-    background-color: #800000; /* Maroon */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #660000; /* Darker Maroon */
-}
-
